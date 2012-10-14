@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>세번째 페이지</title>
+	<link href="./stylesheet/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrap">
+		<div id="navbar">
+			<a href="index.html">index</a>  |
+			<a href="index2.html">index2</a>
+		</div>
+		<div id="quname">
+			<h1>::설문 조사::</h1>
+		</div>
+		<div id="choose">
+		<form method="post">
+			성명: <input type="text" name="name" size="7"/><br/>
+			학과: <input type="text" name="depart" size="10"/><br/>
+			성별: <input type="radio" name="sex" value="m"/>남 
+			  	  <input type="radio" name="sex" value="f"/>여<br/>
+			공학인증여부: <input type="radio" name="state" value="yes"/>네
+				 	      <input type="radio" name="state" value="no"/>아니오<br/>
+			거주지: 
+				<select name="live">
+					<option value="busan">부산</option>
+					<option value="seoul">서울</option>
+					<option value="kykido">경기도</option>
+					<option value="chu">충청도</option>
+					<option value="kysang">경상도</option>
+					<option value="jeon">전라도</option>
+				</select><br/>
+			기타 질문:<br/>
+			<textarea cols="30" rows="5" name="questions"></textarea>
+			<br/>
+			<input type="button" value="제출"><br/>
+		</form>
+	</div>
+	<div id="footer">
+		<p> 사이트 소개 | 이용약관 | 개인정보취급방침 | 고객센터 
+		<p> copyright © 2012 Choi Yoon-sik Inc. All rights reserved </p>
+	</div>
+</div>
+</body>
+</html>
